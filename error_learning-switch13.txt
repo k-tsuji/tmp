@@ -1,0 +1,22 @@
+ensyuu2@ensyuu2-VirtualBox:~/workspace4github/learning-switch-k-tsuji$ bundle exec trema run ./lib/learning_switch13.rb -c learning_switch13.conf 
+Warning: can not check `/etc/sudoers` for `secure_path`, falling back to call via `/usr/bin/env`, this breaks rules from `/etc/sudoers`. Run:
+
+    export rvmsudo_secure_path=1
+
+to avoid the warning, put it in shell initialization file to make it persistent.
+
+In case there is no `secure_path` in `/etc/sudoers`. Run:
+
+    export rvmsudo_secure_path=0
+
+to avoid the warning, put it in shell initialization file to make it persistent.
+LearningSwitch13 started.
+NameError: uninitialized constant LearningSwitch13::Apply
+	./lib/learning_switch13.rb:70:in `add_default_broadcast_flow_entry'
+	./lib/learning_switch13.rb:20:in `switch_ready'
+	/home/ensyuu2/.rvm/gems/ruby-2.2.5/bundler/gems/trema-50b5a383bb73/lib/trema/controller.rb:332:in `block in send_handler'
+	/home/ensyuu2/.rvm/gems/ruby-2.2.5/bundler/gems/trema-50b5a383bb73/lib/trema/controller.rb:332:in `synchronize'
+	/home/ensyuu2/.rvm/gems/ruby-2.2.5/bundler/gems/trema-50b5a383bb73/lib/trema/controller.rb:332:in `send_handler'
+	/home/ensyuu2/.rvm/gems/ruby-2.2.5/bundler/gems/trema-50b5a383bb73/lib/trema/controller.rb:337:in `maybe_send_handler'
+	/home/ensyuu2/.rvm/gems/ruby-2.2.5/bundler/gems/trema-50b5a383bb73/lib/trema/controller.rb:261:in `start_switch_main'
+	/home/ensyuu2/.rvm/gems/ruby-2.2.5/bundler/gems/trema-50b5a383bb73/lib/trema/controller.rb:254:in `block in start_switch_thread'
