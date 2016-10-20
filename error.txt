@@ -1,5 +1,0 @@
-Gem::InstallError: ruby_dep requires Ruby version >= 2.2.5, ~> 2.2.
-An error occurred while installing ruby_dep (1.4.0), and Bundler
-cannot continue.
-Make sure that `gem install ruby_dep -v '1.4.0'` succeeds before bundling.
-
