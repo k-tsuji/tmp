@@ -1,0 +1,14 @@
+ensyuu2@ensyuu2-VirtualBox:~/workspace4github/simple-router-k-tsuji$ bundle exec ./bin/trema run ./lib/simple_router.rb -c trema.conf 
+SimpleRouter started.
+/home/ensyuu2/.rvm/gems/ruby-2.2.5/gems/pio-0.30.0/lib/pio/open_flow/message.rb:21:in `rescue in read': Invalid OpenFlow10 Hello message. (Pio::ParseError)
+	from /home/ensyuu2/.rvm/gems/ruby-2.2.5/gems/pio-0.30.0/lib/pio/open_flow/message.rb:15:in `read'
+	from /home/ensyuu2/.rvm/gems/ruby-2.2.5/gems/pio-0.30.0/lib/pio/open_flow.rb:50:in `read'
+	from /home/ensyuu2/.rvm/gems/ruby-2.2.5/gems/trema-0.9.0/lib/trema/switch.rb:36:in `read'
+	from /home/ensyuu2/.rvm/gems/ruby-2.2.5/gems/trema-0.9.0/lib/trema/switch.rb:59:in `block in expect_receiving'
+	from /home/ensyuu2/.rvm/gems/ruby-2.2.5/gems/trema-0.9.0/lib/trema/switch.rb:58:in `loop'
+	from /home/ensyuu2/.rvm/gems/ruby-2.2.5/gems/trema-0.9.0/lib/trema/switch.rb:58:in `expect_receiving'
+	from /home/ensyuu2/.rvm/gems/ruby-2.2.5/gems/trema-0.9.0/lib/trema/switch.rb:43:in `exchange_hello_messages'
+	from /home/ensyuu2/.rvm/gems/ruby-2.2.5/gems/trema-0.9.0/lib/trema/switch.rb:19:in `init'
+	from /home/ensyuu2/.rvm/gems/ruby-2.2.5/gems/trema-0.9.0/lib/trema/controller.rb:275:in `create_and_register_new_switch'
+	from /home/ensyuu2/.rvm/gems/ruby-2.2.5/gems/trema-0.9.0/lib/trema/controller.rb:259:in `block in start_switch_thread'
+
